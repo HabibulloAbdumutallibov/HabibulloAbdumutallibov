@@ -1,0 +1,191 @@
+[
+    [
+    {
+    "month": "1 Oy",
+      "progressPercentage": 70,
+      "remarks": "Yangi boshlovchi uchun yaxshi natija",
+      "topicsCovered": ["HTML Basics", "CSS Fundamentals"]
+    },
+    {
+    "month": "2 Oy",
+      "progressPercentage": 75,
+      "remarks": "Oldinga siljish mavjud, natijalar yaxshi",
+      "topicsCovered": ["CSS Layouts", "Responsive Design"]
+    },
+    {
+    "month": "3 Oy",
+      "progressPercentage": 80,
+      "remarks": "Qiyin mavzular o'zlashtirildi",
+      "topicsCovered": ["JavaScript Basics", "DOM Manipulation"]
+    },
+    {
+    "month": "4 Oy",
+      "progressPercentage": 85,
+      "remarks": "Barqaror o'zlashtirish davom etmoqda",
+      "topicsCovered": ["JavaScript ES6+", "API Integration"]
+    },
+    {
+    "month": "5 Oy",
+      "progressPercentage": 90,
+      "remarks": "Yuqori o'zlashtirish, qiziqish sezilarli",
+      "topicsCovered": ["React Basics", "Component Development"]
+    },
+    {
+    "month": "6 Oy",
+      "progressPercentage": 88,
+      "remarks": "Murakkab mavzular o'rganilgan",
+      "topicsCovered": ["React Hooks", "State Management"]
+    },
+    {
+    "month": "7 Oy",
+      "progressPercentage": 92,
+      "remarks": "React chuqur o'zlashtirildi",
+      "topicsCovered": ["React Router", "Project Deployment"]
+    },
+    {
+    "month": "8 Oy",
+      "progressPercentage": 100,
+      "remarks": "O'qish davom etmoqda  ",
+      "topicsCovered": ["Portfolio Creation", "Final Project"]
+    } 
+    
+  ]
+  ,
+  
+   [
+      {
+        "id": 1,
+        "technology": "HTML",
+        "proficiency": 90,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+        "skills": [
+          "Semantik HTML",
+          "Accessibility",
+          "SEO optimallashtirish",
+          "ARIA attributlar",
+          "SEO-friendly markup"
+        ]
+      },
+      {
+        "id": 2,
+        "technology": "CSS",
+        "proficiency": 85,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+        "skills": [
+          "Flexbox",
+          "Grid",
+          "Animatsiyalar",
+          "Responsive dizayn",
+          "SCSS",
+          "Dark mode"
+        ]
+      },
+      {
+        "id": 3,
+        "technology": "SASS",
+        "proficiency": 75,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
+        "skills": [
+          "Mixin",
+          "Nesting",
+          "Variable",
+          "BEM metodologiyasi",
+          "DRY tamoyillari"
+        ]
+      },
+      {
+        "id": 4,
+        "technology": "Tailwind",
+        "proficiency": 80,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        "skills": [
+          "Utility-first",
+          "Reusable componentlar",
+          "Konfiguratsiya o‘zgartirish",
+          "Dark mode"
+        ]
+      },
+      {
+        "id": 5,
+        "technology": "Bootstrap",
+        "proficiency": 85,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+        "skills": [
+          "Grid tizimi",
+          "Responsiv dizayn",
+          "Theme customization",
+          "JS komponentlari bilan ishlash"
+        ]
+      },
+      {
+        "id": 6,
+        "technology": "JavaScript",
+        "proficiency": 82,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "skills": [
+          "ES6+",
+          "DOM manipulyatsiya",
+          "Async/Await",
+          "API bilan ishlash",
+          "Closure",
+          "Event loop"
+        ]
+      },
+      {
+        "id": 7,
+        "technology": "React",
+        "proficiency": 80,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        "skills": [
+          "Hooks",
+          "State management",
+          "Component lifecycle",
+          "Memoization",
+          "Lazy loading"
+        ]
+      },
+      {
+        "id": 8,
+        "technology": "TypeScript",
+        "proficiency": 70,
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo_%28Blue%29.svg",
+        "skills": [
+          "Type safety",
+          "Interfeyslar",
+          "Generiklar",
+          "Strict mode",
+          "Union va intersection types"
+        ]
+      }
+    ]
+  
+  
+  
+  ,
+  [
+        {
+          "name": "Abdumutallibov Habibullo",
+          "fatherName": "Muhammadin o‘gli",
+          "birthDate": "2003-11-02",
+          "birthPlace": "Andijon viloyati",
+          "height": 175,
+          "weight": 70,
+          "education": {
+            "institution": "Najot Ta'lim o‘quv markazi",
+            "direction": "Frontend yo‘nalishi",
+            "group": "FN31"
+          },
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Tailwind CSS",
+            "Git"
+          ]
+        }
+        
+      ],
+      []
+]
+
