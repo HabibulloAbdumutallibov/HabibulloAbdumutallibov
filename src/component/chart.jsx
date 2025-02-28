@@ -18,7 +18,7 @@ const Speedometer = () => {
 
   return (
     <div
-      className={`flex flex-col justify-center items-center transition-colors duration-300 ${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-black'}`}
+      className={`flex flex-col justify-center items-center transition-colors duration-300 bg-transparent ${darkMode ? ' text-white' : 'text-black'}`}
     >
       <h1 className="text-2xl">Index</h1>
       <GaugeChart

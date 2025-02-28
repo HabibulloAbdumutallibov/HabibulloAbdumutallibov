@@ -25,8 +25,8 @@ const ContactComponent = () => {
 
   return (
     <div
-      className={`max-w-md mx-auto p-6 shadow-lg rounded-lg mt-10 transition-colors duration-300 ${
-        darkMode === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"
+      className={` h-dvh max-w-md mx-auto p-6 shadow-lg rounded-lg mt-10 transition-colors duration-300 ${
+        darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
       }`}
     >
       <h2 className="text-2xl font-semibold text-center mb-6">
@@ -49,7 +49,7 @@ const ContactComponent = () => {
             onChange={handleChange}
             required
             className={`mt-2 block w-full p-3 border rounded-md focus:outline-none focus:ring-2 ${
-              darkMode === "dark"
+              darkMode
                 ? "border-gray-600 bg-gray-700 text-white focus:ring-blue-400"
                 : "border-gray-300 bg-white text-black focus:ring-blue-500"
             }`}
@@ -71,7 +71,7 @@ const ContactComponent = () => {
             onChange={handleChange}
             required
             className={`mt-2 block w-full p-3 border rounded-md focus:outline-none focus:ring-2 ${
-              darkMode === "dark"
+              darkMode
                 ? "border-gray-600 bg-gray-700 text-white focus:ring-blue-400"
                 : "border-gray-300 bg-white text-black focus:ring-blue-500"
             }`}
@@ -92,7 +92,7 @@ const ContactComponent = () => {
             onChange={handleChange}
             required
             className={`mt-2 block w-full p-3 border rounded-md focus:outline-none focus:ring-2 ${
-              darkMode === "dark"
+              darkMode
                 ? "border-gray-600 bg-gray-700 text-white focus:ring-blue-400"
                 : "border-gray-300 bg-white text-black focus:ring-blue-500"
             }`}
@@ -111,13 +111,13 @@ const ContactComponent = () => {
         <p className="text-sm">Yoki quyidagi platformalarda menga yozing:</p>
         <div className="flex justify-center space-x-4 mt-2">
           <a
-            href="tel:+998901234567"
+            href="tel:+998331693608"
             className="text-blue-500 hover:underline transition-colors duration-300"
           >
             Telefon
           </a>
           <a
-            href="https://t.me/username"
+            href="https://t.me/habibullox000"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline transition-colors duration-300"
@@ -125,7 +125,7 @@ const ContactComponent = () => {
             Telegram
           </a>
           <a
-            href="https://instagram.com/username"
+           href="https://instagram.com/habibullo_0311"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline transition-colors duration-300"
