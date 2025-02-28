@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from "react";
-import {  Fade } from "@mui/material";
+import { Fade } from "@mui/material";
 import Grow from "@mui/material/Grow";
-
 import data from "../assets/data.json";
 import useDarkMode from "../store/useDarkMode";
+import useLanguageStore from "../store/useLanguageStore";
 
 const technologies = data[1] || [];
+console.log(technologies);
+
+
+console.log();
+
 
 export default function TechSkills() {
   const [selectedTech, setSelectedTech] = useState(null);
   const [animate, setAnimate] = useState(false);
   const { darkMode } = useDarkMode();
+  const { language } = useLanguageStore();
 
   useEffect(() => {
     setAnimate(true);
@@ -29,10 +35,12 @@ export default function TechSkills() {
   }
 
   return (
-    <div
-      className={`pb-10  relative transition-colors duration-300 ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}
+     <div
+      className={`pb-10 relative transition-colors duration-300 ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}
     >
-      <h2 className="text-2xl font-bold text-center mb-4">O'zlashtirilgan tillar</h2>
+      <h2 className="text-2xl font-bold text-center mb-4">
+        {language === "uz" ? "O'zlashtirilgan texnologiyalar" : language === "ru" ? "Изученные технологии" : "Learned Technologies"}
+      </h2>
       <div className="flex flex-col mx-auto">
         {technologies.map((tech, index) => (
           <Grow key={tech.id} direction="left" in={animate} mountOnEnter unmountOnExit timeout={index * 300 + 500}>
@@ -41,7 +49,7 @@ export default function TechSkills() {
               className={`p-4 shadow cursor-pointer transition-transform transform hover:scale-105 flex items-center gap-3 ${darkMode ? "bg-gray-800 text-white" : "bg-gray-100 text-black"}`}
             >
               <img src={tech.logo} alt={tech.technology} className="w-12 h-12" />
-              <p className="font-semibold flex-grow">{tech.technology}</p>
+              <p className="font-semibold flex-grow">{tech.technology[language]}</p>
             </div>
           </Grow>
         ))}
@@ -49,7 +57,7 @@ export default function TechSkills() {
 
       <Fade in={Boolean(selectedTech)} timeout={500}>
         <div
-          className="fixed w-full  inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+          className="fixed w-full inset-0 bg-black bg-opacity-50 flex items-center justify-center"
           onClick={handleClose}
         >
           <div
@@ -62,11 +70,11 @@ export default function TechSkills() {
             >
               X
             </button>
-            <h3 className="text-lg font-bold text-center">{selectedTech?.technology}</h3>
-            <img src={selectedTech?.logo} alt={selectedTech?.technology} className="w-20 h-20 mx-auto my-2" />
+            <h3 className="text-lg font-bold text-center">{selectedTech?.technology[language]}</h3>
+            <img src={selectedTech?.logo} alt={selectedTech?.technology[language]} className="w-20 h-20 mx-auto my-2" />
             <p className="text-center">Proficiency: {selectedTech?.proficiency}%</p>
             <ul className="mt-4 text-sm text-left">
-              {selectedTech?.skills.map((skill, index) => (
+              {selectedTech?.skills[language].map((skill, index) => (
                 <li key={index} className="list-disc ml-4">{skill}</li>
               ))}
             </ul>

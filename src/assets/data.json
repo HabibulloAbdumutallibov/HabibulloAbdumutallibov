@@ -1,191 +1,329 @@
 [
-    [
+  [
     {
-    "month": "1 Oy",
+      "month": { "uz": "1 Oy", "ru": "1 месяц", "en": "1 Month" },
       "progressPercentage": 70,
-      "remarks": "Yangi boshlovchi uchun yaxshi natija",
-      "topicsCovered": ["HTML Basics", "CSS Fundamentals"]
+      "remarks": {
+        "uz": "Yangi boshlovchi uchun yaxshi natija",
+        "ru": "Хороший результат для новичка",
+        "en": "A good result for a beginner"
+      },
+      "topicsCovered": {
+        "uz": ["HTML asoslari", "CSS fundamental"],
+        "ru": ["Основы HTML", "Фундаментальные CSS"],
+        "en": ["HTML Basics", "CSS Fundamentals"]
+      }
     },
     {
-    "month": "2 Oy",
+      "month": { "uz": "2 Oy", "ru": "2 месяц", "en": "2 Months" },
       "progressPercentage": 75,
-      "remarks": "Oldinga siljish mavjud, natijalar yaxshi",
-      "topicsCovered": ["CSS Layouts", "Responsive Design"]
+      "remarks": {
+        "uz": "Oldinga siljish mavjud, natijalar yaxshi",
+        "ru": "Есть прогресс, результаты хорошие",
+        "en": "There is progress, results are good"
+      },
+      "topicsCovered": {
+        "uz": ["CSS joylashuvi", "Moslashuvchan dizayn"],
+        "ru": ["Макеты CSS", "Адаптивный дизайн"],
+        "en": ["CSS Layouts", "Responsive Design"]
+      }
     },
     {
-    "month": "3 Oy",
+      "month": { "uz": "3 Oy", "ru": "3 месяц", "en": "3 Months" },
       "progressPercentage": 80,
-      "remarks": "Qiyin mavzular o'zlashtirildi",
-      "topicsCovered": ["JavaScript Basics", "DOM Manipulation"]
+      "remarks": {
+        "uz": "JavaScript asoslari o'rganildi",
+        "ru": "Изучены основы JavaScript",
+        "en": "JavaScript basics learned"
+      },
+      "topicsCovered": {
+        "uz": ["JavaScript sintaksisi", "O'zgaruvchilar va funksiyalar"],
+        "ru": ["Синтаксис JavaScript", "Переменные и функции"],
+        "en": ["JavaScript Syntax", "Variables and Functions"]
+      }
     },
     {
-    "month": "4 Oy",
+      "month": { "uz": "4 Oy", "ru": "4 месяц", "en": "4 Months" },
       "progressPercentage": 85,
-      "remarks": "Barqaror o'zlashtirish davom etmoqda",
-      "topicsCovered": ["JavaScript ES6+", "API Integration"]
+      "remarks": {
+        "uz": "DOM bilan ishlash boshlandi",
+        "ru": "Началась работа с DOM",
+        "en": "Started working with DOM"
+      },
+      "topicsCovered": {
+        "uz": ["DOM manipulyatsiya", "Hodisalar"],
+        "ru": ["Манипуляции с DOM", "События"],
+        "en": ["DOM Manipulation", "Events"]
+      }
     },
     {
-    "month": "5 Oy",
-      "progressPercentage": 90,
-      "remarks": "Yuqori o'zlashtirish, qiziqish sezilarli",
-      "topicsCovered": ["React Basics", "Component Development"]
-    },
-    {
-    "month": "6 Oy",
+      "month": { "uz": "5 Oy", "ru": "5 месяц", "en": "5 Months" },
       "progressPercentage": 88,
-      "remarks": "Murakkab mavzular o'rganilgan",
-      "topicsCovered": ["React Hooks", "State Management"]
+      "remarks": {
+        "uz": "API-lar va JSON bilan ishlash o'rganildi",
+        "ru": "Изучена работа с API и JSON",
+        "en": "Learned working with APIs and JSON"
+      },
+      "topicsCovered": {
+        "uz": ["Fetch API", "JSON ma'lumotlari bilan ishlash"],
+        "ru": ["Fetch API", "Работа с данными JSON"],
+        "en": ["Fetch API", "Working with JSON Data"]
+      }
     },
     {
-    "month": "7 Oy",
+      "month": { "uz": "6 Oy", "ru": "6 месяц", "en": "6 Months" },
+      "progressPercentage": 90,
+      "remarks": {
+        "uz": "React boshlang‘ich bosqichi o‘rganildi",
+        "ru": "Изучен начальный уровень React",
+        "en": "Learned the basics of React"
+      },
+      "topicsCovered": {
+        "uz": ["React komponentlari", "Props va State"],
+        "ru": ["Компоненты React", "Props и State"],
+        "en": ["React Components", "Props and State"]
+      }
+    },
+    {
+      "month": { "uz": "7 Oy", "ru": "7 месяц", "en": "7 Months" },
       "progressPercentage": 92,
-      "remarks": "React chuqur o'zlashtirildi",
-      "topicsCovered": ["React Router", "Project Deployment"]
+      "remarks": {
+        "uz": "React Hooks va Zustand bilan ishlash",
+        "ru": "Работа с React Hooks и Zustand",
+        "en": "Working with React Hooks and Zustand"
+      },
+      "topicsCovered": {
+        "uz": ["useState va useEffect", "Zustand davlat boshqaruvi"],
+        "ru": ["useState и useEffect", "Управление состоянием Zustand"],
+        "en": ["useState and useEffect", "State management with Zustand"]
+      }
     },
     {
-    "month": "8 Oy",
-      "progressPercentage": 100,
-      "remarks": "O'qish davom etmoqda  ",
-      "topicsCovered": ["Portfolio Creation", "Final Project"]
-    } 
-    
+      "month": { "uz": "8 Oy", "ru": "8 месяц", "en": "8 Months" },
+      "progressPercentage": 95,
+      "remarks": {
+        "uz": "Loyihalar yaratish bosqichi boshlandi",
+        "ru": "Начат этап создания проектов",
+        "en": "Started project development stage"
+      },
+      "topicsCovered": {
+        "uz": ["React Router", "Loyihalarni optimallashtirish"],
+        "ru": ["React Router", "Оптимизация проектов"],
+        "en": ["React Router", "Project Optimization"]
+      }
+    }
   ]
   ,
-  
-   [
-      {
-        "id": 1,
-        "technology": "HTML",
-        "proficiency": 90,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
-        "skills": [
-          "Semantik HTML",
-          "Accessibility",
-          "SEO optimallashtirish",
-          "ARIA attributlar",
-          "SEO-friendly markup"
-        ]
-      },
-      {
-        "id": 2,
-        "technology": "CSS",
-        "proficiency": 85,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-        "skills": [
-          "Flexbox",
-          "Grid",
-          "Animatsiyalar",
-          "Responsive dizayn",
-          "SCSS",
-          "Dark mode"
-        ]
-      },
-      {
-        "id": 3,
-        "technology": "SASS",
-        "proficiency": 75,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
-        "skills": [
-          "Mixin",
-          "Nesting",
-          "Variable",
-          "BEM metodologiyasi",
-          "DRY tamoyillari"
-        ]
-      },
-      {
-        "id": 4,
-        "technology": "Tailwind",
-        "proficiency": 80,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-        "skills": [
-          "Utility-first",
-          "Reusable componentlar",
-          "Konfiguratsiya o‘zgartirish",
-          "Dark mode"
-        ]
-      },
-      {
-        "id": 5,
-        "technology": "Bootstrap",
-        "proficiency": 85,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-        "skills": [
-          "Grid tizimi",
-          "Responsiv dizayn",
-          "Theme customization",
-          "JS komponentlari bilan ishlash"
-        ]
-      },
-      {
-        "id": 6,
-        "technology": "JavaScript",
-        "proficiency": 82,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-        "skills": [
-          "ES6+",
-          "DOM manipulyatsiya",
-          "Async/Await",
-          "API bilan ishlash",
-          "Closure",
-          "Event loop"
-        ]
-      },
-      {
-        "id": 7,
-        "technology": "React",
-        "proficiency": 80,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-        "skills": [
-          "Hooks",
-          "State management",
-          "Component lifecycle",
-          "Memoization",
-          "Lazy loading"
-        ]
-      },
-      {
-        "id": 8,
-        "technology": "TypeScript",
-        "proficiency": 70,
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/TypeScript_Logo_%28Blue%29.svg",
-        "skills": [
-          "Type safety",
-          "Interfeyslar",
-          "Generiklar",
-          "Strict mode",
-          "Union va intersection types"
-        ]
-      }
-    ]
-  
-  
-  
-  ,
+
   [
-        {
-          "name": "Abdumutallibov Habibullo",
-          "fatherName": "Muhammadin o‘gli",
-          "birthDate": "2003-11-02",
-          "birthPlace": "Andijon viloyati",
-          "height": 175,
-          "weight": 70,
-          "education": {
-            "institution": "Najot Ta'lim o‘quv markazi",
-            "direction": "Frontend yo‘nalishi",
-            "group": "FN31"
-          },
-          "skills": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Tailwind CSS",
-            "Git"
-          ]
-        }
-        
-      ],
-      []
+    {
+      "id": 1,
+      "technology": { "uz": "HTML", "ru": "HTML", "en": "HTML" },
+      "proficiency": 90,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "skills": {
+        "uz": ["Semantik HTML", "SEO optimallashtirish", "ARIA atributlar"],
+        "ru": ["Семантический HTML", "SEO оптимизация", "ARIA атрибуты"],
+        "en": ["Semantic HTML", "SEO Optimization", "ARIA Attributes"]
+      }
+    },
+    {
+      "id": 2,
+      "technology": { "uz": "CSS", "ru": "CSS", "en": "CSS" },
+      "proficiency": 85,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "skills": {
+        "uz": ["Flexbox", "Grid", "Animatsiyalar"],
+        "ru": ["Flexbox", "Grid", "Анимации"],
+        "en": ["Flexbox", "Grid", "Animations"]
+      }
+    },
+    {
+      "id": 3,
+      "technology": { "uz": "Sass", "ru": "Sass", "en": "Sass" },
+      "proficiency": 80,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
+      "skills": {
+        "uz": ["Nestlangan selectorlar", "Mixinlar", "Sass funksiyalari"],
+        "ru": ["Вложенные селекторы", "Миксины", "Функции Sass"],
+        "en": ["Nested Selectors", "Mixins", "Sass Functions"]
+      }
+    },
+    {
+      "id": 4,
+      "technology": { "uz": "Tailwind CSS", "ru": "Tailwind CSS", "en": "Tailwind CSS" },
+      "proficiency": 85,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+      "skills": {
+        "uz": ["Utility-first yondashuv", "Tez prototiplash", "Responsiv dizayn"],
+        "ru": ["Utility-first подход", "Быстрое прототипирование", "Адаптивный дизайн"],
+        "en": ["Utility-first Approach", "Fast Prototyping", "Responsive Design"]
+      }
+    },
+    {
+      "id": 5,
+      "technology": { "uz": "Bootstrap", "ru": "Bootstrap", "en": "Bootstrap" },
+      "proficiency": 75,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
+      "skills": {
+        "uz": ["Grid tizimi", "Responsiv komponentlar", "Bootstrap ikonkalar"],
+        "ru": ["Сетка", "Адаптивные компоненты", "Иконки Bootstrap"],
+        "en": ["Grid System", "Responsive Components", "Bootstrap Icons"]
+      }
+    },
+    {
+      "id": 6,
+      "technology": { "uz": "JavaScript", "ru": "JavaScript", "en": "JavaScript" },
+      "proficiency": 80,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "skills": {
+        "uz": ["ES6+", "Asinxron dasturlash", "DOM manipulyatsiya"],
+        "ru": ["ES6+", "Асинхронное программирование", "Манипуляции с DOM"],
+        "en": ["ES6+", "Asynchronous Programming", "DOM Manipulation"]
+      }
+    },
+    {
+      "id": 7,
+      "technology": { "uz": "React", "ru": "React", "en": "React" },
+      "proficiency": 75,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "skills": {
+        "uz": ["Komponentlar", "Props va State", "React Hooks"],
+        "ru": ["Компоненты", "Props и State", "React Hooks"],
+        "en": ["Components", "Props and State", "React Hooks"]
+      }
+    },
+    {
+      "id": 8,
+      "technology": { "uz": "Zustand", "ru": "Zustand", "en": "Zustand" },
+      "proficiency": 70,
+      "logo": "https://avatars.githubusercontent.com/u/499550?s=200&v=4",
+      "skills": {
+        "uz": ["Global State boshqaruvi", "Reaktivlik", "Oson integratsiya"],
+        "ru": ["Управление глобальным состоянием", "Реактивность", "Легкая интеграция"],
+        "en": ["Global State Management", "Reactivity", "Easy Integration"]
+      }
+    },
+    {
+      "id": 9,
+      "technology": { "uz": "TypeScript", "ru": "TypeScript", "en": "TypeScript" },
+      "proficiency": 70,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+      "skills": {
+        "uz": ["Statik tiplar", "Interfeyslar", "Type Safety"],
+        "ru": ["Статические типы", "Интерфейсы", "Безопасность типов"],
+        "en": ["Static Typing", "Interfaces", "Type Safety"]
+      }
+    }
 ]
 
+,  
+
+[
+  {
+    "name": {
+      "uz": "Abdumutallibov Habibullo",
+      "ru": "Абдумуталлибов Хабибулло",
+      "en": "Abdumutallibov Habibullo"
+    },
+    "fatherName": {
+      "uz": "Muhammadin o‘gli",
+      "ru": "Сын Мухаммада",
+      "en": "Son of Muhammad"
+    },
+    "birthDate": "2003-11-02",
+    "birthPlace": {
+      "uz": "Andijon viloyati",
+      "ru": "Андижанская область",
+      "en": "Andijan region"
+    },
+    "height": 175,
+    "weight": 70,
+    "education": {
+      "institution": {
+        "uz": "Najot Ta'lim o‘quv markazi",
+        "ru": "Учебный центр Najot Ta'lim",
+        "en": "Najot Ta'lim Learning Center"
+      },
+      "direction": {
+        "uz": "Frontend yo‘nalishi",
+        "ru": "Направление Frontend",
+        "en": "Frontend direction"
+      },
+      "group": "FN31",
+      "year": {
+        "uz": "2023-yilda bitirgan",
+        "ru": "Выпустился в 2023 году",
+        "en": "Graduated in 2023"
+      }
+    },
+    "skills":{
+      "uz": ["HTML", "CSS", "Sass", "Tailwind CSS", "Bootstrap", "JavaScript", "React", "Zustand", "TypeScript"],
+      "ru": ["HTML", "CSS", "Sass", "Tailwind CSS", "Bootstrap", "JavaScript", "React", "Zustand", "TypeScript"],
+      "en": ["HTML", "CSS", "Sass", "Tailwind CSS", "Bootstrap", "JavaScript", "React", "Zustand", "TypeScript"]
+    }
+,    
+    "languages": {
+      "uz": ["O‘zbek tili", "Rus tili", "Ingliz tili"],
+      "ru": ["Узбекский", "Русский", "Английский"],
+      "en": ["Uzbek", "Russian", "English"]
+    },
+    "experience": {
+      "uz": "Frontend dasturchi sifatida amaliyot o'tagan",
+      "ru": "Проходил практику в качестве Frontend-разработчика",
+      "en": "Completed an internship as a Frontend developer"
+    }
+  }
+]
+,
+    []
+    ,[
+      {
+      "settings": {
+        "uz": "Sozlamalar",
+        "ru": "Настройки",
+        "en": "Settings"
+      },
+      "darkMode": {
+        "uz": "Qorong'u rejim",
+        "ru": "Тёмный режим",
+        "en": "Dark Mode"
+      },
+      "selectLanguage": {
+        "uz": "Tilni tanlang",
+        "ru": "Выберите язык",
+        "en": "Select Language"
+      }
+    }
+  ]
+  ,
+  [
+    {
+    "uz": {
+      "home": "Bosh sahifa",
+      "statistics": "Statistika",
+      "language": "Til",
+      "contact": "Kontakt",
+      "settings": "Sozlamalar",
+      "mode": "Holat"
+    },
+    "ru": {
+      "home": "Главная",
+      "statistics": "Статистика",
+      "language": "Язык",
+      "contact": "Контакты",
+      "settings": "Настройки",
+      "mode": "Режим"
+    },
+    "en": {
+      "home": "Home",
+      "statistics": "Statistics",
+      "language": "Language",
+      "contact": "Contact",
+      "settings": "Settings",
+      "mode": "Mode"
+    }
+  }
+  ]
+    
+]

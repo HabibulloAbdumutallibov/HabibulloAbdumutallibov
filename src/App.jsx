@@ -7,12 +7,13 @@ import LangStatistik from "./page/LangStatistik";
 import Contact from "./page/Contakt";
 import Detals from "./page/Detals";
 import Setinges from "./page/Setinges";
-
- 
+import useDarkMode from "./store/useDarkMode"; // Dark mode hookini chaqiramiz
 
 const App = () => {
+  const { darkMode } = useDarkMode(); // Dark mode holatini olish
 
   return (
+    <div className={darkMode ? "dark bg-gray-900 text-white" : "bg-white text-black"}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -23,8 +24,8 @@ const App = () => {
           <Route path="settings" element={<Setinges />} />
         </Route>
       </Routes>
+    </div>
   );
 };
-
 
 export default App;
