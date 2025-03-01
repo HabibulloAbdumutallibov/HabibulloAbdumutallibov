@@ -45,17 +45,6 @@ console.log(lang);
         <FaCog size={24} />
         <span className="text-xs">{lang.settings}</span>
       </Link>
-
-      {/* Dark Mode Toggle */}
-      <button
-        onClick={toggleDarkMode}
-        className={`flex flex-col items-center hover:text-blue-500 focus:outline-none ${
-          darkMode ? "text-yellow-400" : "text-gray-700"
-        }`}
-      >
-        {darkMode ? <FaSun size={24} /> : <FaMoon size={24} />}
-        <span className="text-xs">{lang.mode}</span>
-      </button>
     </nav>
   );
 }

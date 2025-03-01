@@ -46,7 +46,7 @@ export default function TechSkills() {
           <Grow key={tech.id} direction="left" in={animate} mountOnEnter unmountOnExit timeout={index * 300 + 500}>
             <div
               onClick={() => handleClick(tech)}
-              className={`p-4 shadow cursor-pointer transition-transform transform hover:scale-105 flex items-center gap-3 ${darkMode ? "bg-gray-800 text-white" : "bg-gray-100 text-black"}`}
+              className={`p-4 shadow cursor-pointer  transition-transform transform hover:scale-101  flex items-center gap-3 ${darkMode ? "bg-gray-800 text-white" : "bg-gray-100 text-black"}`}
             >
               <img src={tech.logo} alt={tech.technology} className="w-12 h-12" />
               <p className="font-semibold flex-grow">{tech.technology[language]}</p>
